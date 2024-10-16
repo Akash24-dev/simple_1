@@ -1,0 +1,542 @@
+/* .................Footer................. */
+.footer {
+    padding: 15px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 50px;
+}
+
+/* .................Form................. */
+.container {
+    flex-direction: column;
+}
+
+.contact-info, .contact-form {
+    margin: 10px 0;
+}
+
+.team-container1 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* General Responsive Breakpoints from Larger to Smaller */
+
+/* ---------- For Screen Sizes Less Than 1080px ---------- */
+@media screen and (max-width: 1080px) {
+    .section1 h1 {
+        font-size: 50px;
+    }
+    header p {
+        font-size: 1.1em;
+    }
+    header button {
+        width: 180px;
+    }
+}
+
+/* ---------- For Screen Sizes Less Than 1024px ---------- */
+@media (max-width: 1024px) {
+    .future_work {
+        grid-template-columns: 1fr;
+    }
+
+    .phone img {
+        max-width: 60%;
+    }
+
+    .work_text p {
+        width: 90%;
+    }
+
+    
+
+    .service-item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .inquiry_form {
+        grid-template-columns: 1fr;
+        width: 320px;
+    }
+    
+    .contact_21 p, .contact-form form {
+        font-size: 14px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contact-form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* ---------- For Screen Sizes Less Than 998px ---------- */
+@media screen and (max-width: 998px) {
+    .section1 h1 {
+        font-size: 25px;
+    }
+    header p {
+        font-size: 1em;
+    }
+    header button {
+        width: 160px;
+        font-size: 1.1em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ---------- For Screen Sizes Less Than 768px ---------- */
+@media (max-width: 768px) {
+    /* General Adjustments */
+    .footer {
+        padding: 15px;
+        margin-top: 150px;
+    }
+
+    .footer-logo {
+        width: 50px;
+    }
+    .form{
+        margin-left: 100px;
+    }
+   
+
+    .container {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        margin: 10px 0;
+    }
+
+    .team-container1 {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    header button {
+        width: 150px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-item img {
+        margin: 0 0 10px;
+    }
+
+
+    .inquiry_form{
+        width: 320px;
+    }
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .f1-bar {
+        /* margin-top: 100px; */
+        width: 320px;
+    }
+
+    .f1-bar a {
+        font-size: 20px;
+    }
+
+    .inquiry_form, .contact-form {
+        flex: 1 1 100%;
+        margin-bottom: 15px;
+         
+    }
+
+    .contact_21 h2, .contact-form h2 {
+        font-size: 18px;
+    }
+
+    .contact_21 p, .contact-form form {
+        font-size: 14px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        padding: 10px;
+        font-size: 14px;
+        margin-left: 30%;
+    }
+    .phone{
+        margin-right: 120px;
+    }
+    .future_work{
+        margin-top: 600px;
+    }
+    .f{
+         margin-left: 180px;
+    }
+.big_text{
+    margin-left: 50px;
+}
+.service-item{
+    margin-left: 120px;
+}
+ 
+    .work_text{
+        margin-top: 120px;
+    }
+    .portfolio-section{
+        margin-top: 600px;
+    }
+
+
+    .services-container{
+        margin-right: 180px;
+    }
+    .laptop{
+        margin-left: 170px;
+    }
+    .section1{
+        width: 100vh;
+    }
+}
+
+/* ---------- For Screen Sizes Less Than 600px ---------- */
+/* @media (max-width: 600px) {
+    .nav-bar2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-bar2 a {
+        flex: 1 1 auto;
+        margin: 5px;
+    }
+} */
+
+
+
+
+@media (max-width: 768px) {
+    .nav-bar2 {
+        /* flex-direction: column; Stack items vertically */
+    }
+
+    .nav-bar2 a {
+        margin: 5px 0; /* Adjust margin for stacked links */
+        padding: 10px;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+    .nav-bar2 a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px;
+    }
+}
+/* ---------- For Screen Sizes Less Than 520px ---------- */
+ 
+/* ---------- For Screen Sizes Less Than 480px ---------- */
+@media (max-width: 480px) {
+    .footer {
+        margin-top: 300px;
+        padding: 10px;
+    }
+.contact-form{
+    background-color: red;
+    margin-top: 100px;
+    margin-left: -80px;
+     
+}
+    .footer-logo {
+        width: 40px;
+    }
+
+    
+    .logo img {
+        height: 100px;
+    }
+
+    .work_text h1 {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+
+    .work_text p {
+        font-size: 14px;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .phone img {
+        max-width: 90%;
+    }
+
+    .future_work {
+        margin-top: 300px;
+    }
+    .phone{
+        margin-right: 70px;
+    }
+
+     
+    .contact-info{
+        margin-right: 120px;
+        margin-top: 100px;
+    }
+     
+    .service-item img {
+        margin-right: 35px;
+    }
+
+    .contact_21, .contact-form {
+        padding: 10px;
+        width: 320px;
+    }
+
+    .contact_21 h2, .contact-form h2 {
+        font-size: 16px;
+    }
+
+    .contact_21 p, .contact-form input, .contact-form textarea {
+        font-size: 12px;
+    }
+
+    .contact-form button {
+        padding: 8px;
+        font-size: 12px;
+        width: 100px;
+    }
+    .portfolio-section{
+        margin-top: 600px;
+    }
+     
+    /* .head
+    {
+        background: rgb(134, 67, 67);
+    } */
+    h1 {
+        font-size: 35px;
+    }
+
+    header p {
+        font-size: 0.85em;
+    }
+
+    header button {
+        font-size: 0.9em;
+        width: 140px;
+    }
+
+    .portfolio-grid {
+        gap: 20px;
+    }
+
+    .testimonial-content blockquote {
+        font-size: 30px;
+    }
+   
+  
+  .laptop{
+    width: 230px;
+    margin-right: -50px;
+  }
+  .work_text{
+    width: 320px;
+  }
+
+}
+
+/* ---------- For Screen Sizes Less Than 420px ---------- */
+@media screen and (max-width: 420px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 0.8em;
+    }
+
+    header button {
+        font-size: 0.8em;
+        width: 120px;
+    }
+
+    .under_1 {
+        height: 10px;
+        display: grid;
+        justify-content: center;
+    }
+ 
+    #left {
+        margin-left: 26.5%;
+    }
+
+    .work_text {
+        margin-left: 30px;
+    }
+
+    .service-text {
+        margin-left: 20px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 0.75em;
+    }
+
+    header button {
+        font-size: 0.7em;
+        width: 100px;
+    }
+
+    .testimonial-content blockquote {
+        font-size: 20px;
+    }
+
+    .log img {
+        height: 100px;
+    }
+
+    .ser {
+        font-size: 20px;
+        
+    }
+   .services1{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .laptop1 img{
+    height: 180px;
+    width: 200px;
+    align-items: center;
+   }
+   
+  
+}
+
+/* ---------- For Screen Sizes Less Than 320px ---------- */
+@media screen and (max-width: 320px) {
+         
+ 
+.services1{
+ display: grid;
+ grid-template-columns: 1fr;
+ /* background: pink; */
+ /* margin-top: 100px; */
+}
+.laptop1 img{
+ height: 180px;
+ width: 200px;
+ /* align-items: center;
+ margin-left: 100px; */
+}
+.contact-info{
+width: 200px;
+margin-right: 140px;
+}
+
+.f1-bar{
+    margin-top: -100px;
+    width: 277px;
+}
+ .ser{
+    margin-top: 100px;
+ }
+ .laptop{
+  /* display: grid; */
+margin: 0 auto ;
+/* background: #9e5353; */
+ }
+ 
+  .section1{
+    width: 320px;
+  }
+ .portfolio-section{
+    margin-top: 150px;
+}
+  .services{
+    /* background-color: aquamarine; */
+    height: 100%;
+  }
+  .services-container{
+    .service-item{
+        /* background: lightgrey; */
+        margin: 0;
+        padding: 0;
+    }
+    .service-text{
+        /* background: rgb(179, 137, 137); */
+        width:min-content;
+    }
+    .service-item{
+        margin-left: 100px;
+        overflow: hidden;
+    }
+    .laptop1{
+         margin-left: 90px;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
